@@ -55,3 +55,4 @@ AND I am at the “ESS 2021.1 - Turma 1” class detailed page
 AND I see "Carlos Magno", "Helena Torres", "João Paulo", "Maria Eugênia" in the students list
 WHEN I remove the student with the name "Helena Torres"
 THEN I can see "Carlos Magno", "João Paulo", "Maria Eugênia" in the students list
+AND fixDesenvolvimento
