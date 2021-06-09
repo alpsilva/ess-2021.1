@@ -16,14 +16,6 @@ AND I fill the description with “Turma de Engenharia de Software e Sistemas do
 THEN I see a message informing me  that it was registered successfully
 AND I now see the class with the name “ESS 2021.1 - Turma 1” in the list of registered class
 
-Scenario: Teacher tries to create a new class with the same name as another already registered class
-AND  I see, in the list of classes, a class with the name “ESS 2021.1 - Turma 1”
-WHEN I try to create a new class
-AND I fill the class name with “ESS 2021.1 - Turma 1”
-AND I fill the description with “Turma de Engenharia de Software e Sistemas do semestre letivo de 2021.1”
-THEN I see a message informing me that it was not registered because there is already a class with that name
-AND I see only one class with the name “ESS 2021.1 - Turma 1” (the one that was already registered) in the list of registered class
-
 Scenario: Teacher tries to see more info about a class
 AND I see, in the list of classes, a class with the name “ESS 2021.1 - Turma 1”
 WHEN I enter the class “ESS 2021.1 - Turma 1” detailed page
@@ -41,5 +33,3 @@ AND I choose the option to delete it
 AND I say yes to the message that appeared asking me if i’m sure I want to delete it permanently
 THEN I see a message informing me  that it was deleted successfully
 AND I can no longer see a class named “ESS 2021.1 - Turma 2” in the list of registered classes.
-
-teste
