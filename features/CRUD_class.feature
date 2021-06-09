@@ -35,6 +35,12 @@ AND options that let me insert new students
 AND an option to delete the class
 ATENÇÃO: Ainda não recebemos feedback do professor acerca do que deveria ser armazenado em uma turma, então isso aqui provavelmente vai mudar.
 
+Scenario: Teacher tries to add new students to a registered class
+AND I am at the “ESS 2021.1 - Turma 1” class detailed page
+AND I see "Carlos Magno", "João Paulo", "Maria Eugênia" in the students list
+WHEN I add a new student with the name "Helena Torres"
+THEN I can see "Carlos Magno", "Helena Torres", "João Paulo", "Maria Eugênia" in the students list
+
 Scenario: Teacher tries to delete a class
 AND I see, in the list of classes, a class with the name “ESS 2021.1 - Turma 2”
 WHEN I enter the class “ESS 2021.1 - Turma 2” detailed page
