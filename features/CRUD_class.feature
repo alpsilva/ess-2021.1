@@ -48,3 +48,9 @@ AND I choose the option to delete it
 AND I say yes to the message that appeared asking me if i’m sure I want to delete it permanently
 THEN I see a message informing me  that it was deleted successfully
 AND I can no longer see a class named “ESS 2021.1 - Turma 2” in the list of registered classes.
+
+Scenario: Teacher tries to remove a student from a registered class
+AND I am at the “ESS 2021.1 - Turma 1” class detailed page
+AND I see "Carlos Magno", "Helena Torres", "João Paulo", "Maria Eugênia" in the students list
+WHEN I remove the student with the name "Helena Torres"
+THEN I can see "Carlos Magno", "João Paulo", "Maria Eugênia" in the students list
