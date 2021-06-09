@@ -42,3 +42,4 @@ AND I choose the option to delete it
 AND I say yes to the message that appeared asking me if i’m sure I want to delete it permanently
 THEN I see a message informing me  that it was deleted successfully
 AND I can no longer see a class named “ESS 2021.1 - Turma 2” in the list of registered classes.
+AND nova coisa que o stakeholder pediu (roteiro)
