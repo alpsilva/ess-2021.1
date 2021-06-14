@@ -25,4 +25,9 @@ AND I have already applied the first test
 WHEN I enter the “Dancing” class
 THEN I can see a page with the students and their scores
 WHEN I attribute grade “y” to student ‘x’
-THEN I can see that student ‘x’ grade was attributed grade “y”
+THEN I can see that student ‘x’ grade was attributed grade “y
+
+Scenario: Failure in adding a student to a class
+GIVEN I am logged in with a teacher level account
+WHEN I try to update information on the class
+THEN the class information is not updated

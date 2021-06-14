@@ -32,3 +32,14 @@ THEN I can see a list containing my test grades
 AND my previous grades are not modified or removed from the system
 AND no new grades or tests are added to the system
 
+Scenario: Failure in grade check
+
+Background: 
+GIVEN I am logged in my student level account
+AND I am a student at "Dancing" class
+
+WHEN I enter the Dancing class page
+THEN I see a page containing info about "Dancing" class
+WHEN I try to display my grades
+THEN the grades are not displayed
+
