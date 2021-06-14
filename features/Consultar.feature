@@ -10,7 +10,7 @@ AND I am on the page of class “Math”
 AND the class has at least one graded test
 
 WHEN I display the grades
-THEN I can see a list with all the “Math” class students and their grades
+THEN I can see a list with all the “Math” class mesmo ???students and their grades
 AND the students previous grades are not modified or removed from the system
 AND no new grades or tests are added to the system
 
