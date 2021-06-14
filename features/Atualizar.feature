@@ -26,4 +26,3 @@ WHEN I enter the “Dancing” class
 THEN I can see a page with the students and their scores
 WHEN I attribute grade “y” to student ‘x’
 THEN I can see that student ‘x’ grade was attributed grade “y”
-
