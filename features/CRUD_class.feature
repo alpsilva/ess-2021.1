@@ -40,6 +40,7 @@ AND I am at the “ESS 2021.1 - Turma 1” class detailed page
 AND I see "Carlos Magno", "João Paulo", "Maria Eugênia" in the students list
 WHEN I add a new student with the name "Helena Torres"
 THEN I can see "Carlos Magno", "Helena Torres", "João Paulo", "Maria Eugênia" in the students list
+change3Main
 
 Scenario: Teacher tries to delete a class
 AND I see, in the list of classes, a class with the name “ESS 2021.1 - Turma 2”
