@@ -38,3 +38,11 @@ WHEN I enter the page of my class
 THEN I can see a list of students and information about the class
 WHEN I try to remove a certain student from the class
 THEN the system removes this student from the class
+
+Scenario: Updating information of a student
+Background:
+GIVEN I am logged in with a teacher level account
+WHEN I enter on my class page
+THEN I see information about my class and a list of students
+WHEN I try to update the CPF of student "X"
+THEN the CPF of student "x" is updated
