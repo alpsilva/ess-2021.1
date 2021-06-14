@@ -31,3 +31,10 @@ Scenario: Failure in adding a student to a class
 GIVEN I am logged in with a teacher level account
 WHEN I try to update information on the class
 THEN the class information is not updated
+
+Scenario: Removing a student from a class
+Background: Given I am logged in with a teacher level account
+WHEN I enter the page of my class
+THEN I can see a list of students and information about the class
+WHEN I try to remove a certain student from the class
+THEN the system removes this student from the class
