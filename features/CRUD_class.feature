@@ -40,6 +40,7 @@ AND I am at the “ESS 2021.1 - Turma 1” class detailed page
 AND I see "Carlos Magno", "João Paulo", "Maria Eugênia" in the students list
 WHEN I add a new student with the name "Helena Torres"
 THEN I can see "Carlos Magno", "Helena Torres", "João Paulo", "Maria Eugênia" in the students list
+change3Main
 
 Scenario: Teacher tries to delete a class
 AND I see, in the list of classes, a class with the name “ESS 2021.1 - Turma 2”
@@ -49,6 +50,7 @@ AND I say yes to the message that appeared asking me if i’m sure I want to del
 THEN I see a message informing me  that it was deleted successfully
 AND I can no longer see a class named “ESS 2021.1 - Turma 2” in the list of registered classes.
 AND nova coisa que o stakeholder pediu (roteiro)
+change2
 
 Scenario: Teacher tries to remove a student from a registered class
 AND I am at the “ESS 2021.1 - Turma 1” class detailed page
@@ -56,3 +58,4 @@ AND I see "Carlos Magno", "Helena Torres", "João Paulo", "Maria Eugênia" in th
 WHEN I remove the student with the name "Helena Torres"
 THEN I can see "Carlos Magno", "João Paulo", "Maria Eugênia" in the students list
 AND fixDesenvolvimento
+change1
