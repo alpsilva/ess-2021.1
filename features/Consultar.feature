@@ -44,9 +44,13 @@ WHEN I try to display my grades
 THEN the grades are not displayed
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Scenario: Viewing information about a student
 GIVE I am logged in a teacher level account
 WHEN I enter my class page
 THEN I can see my students and information about my class
 WHEN I try to view information about student x
 THEN I can see student x informations that are on the system
+=======
+
+>>>>>>> 099a5b5... teste2
