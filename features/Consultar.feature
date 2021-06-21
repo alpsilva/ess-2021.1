@@ -49,3 +49,5 @@ WHEN I enter my class page
 THEN I can see my students and information about my class
 WHEN I try to view information about student x
 THEN I can see student x informations that are on the system
+
+teste 3
